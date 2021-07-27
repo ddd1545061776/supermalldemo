@@ -6,18 +6,23 @@
 </div>
   </template>
   <script>
-  export default{
+  export default {
   name:'NavBar'
   }
   </script>
   <style scoped>
-    .nav-bar{
+   
+    .nav-bar {
       display: flex;
       line-height: 44px;
       height: 44px;
       text-align: center;
+      
     }
-    .left,.right{
+    .left{
+      width: 60px;
+    }
+    .right{
       width: 60px;
     }
     .center{
