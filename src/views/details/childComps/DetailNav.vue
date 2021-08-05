@@ -27,6 +27,7 @@ export default {
   methods: {
     itemClick(index){
         this.currentIndex=index
+        this.$emit("detailTabClick",index)
     },
     backHome(){
       this.$router.go(-1)

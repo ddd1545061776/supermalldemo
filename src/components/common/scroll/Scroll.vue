@@ -48,7 +48,6 @@ export default {
     });
     if(this.pullUpLoad){
      this.scroll.on("pullingUp", () => {
-      console.log("pullUpLoad执行了");
       this.$emit("pullingUp")
         this.scroll.finishPullUp();
     });

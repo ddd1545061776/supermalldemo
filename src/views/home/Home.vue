@@ -151,7 +151,7 @@ export default {
       this.getHomeData(this.currentType);
       // this.$refs.www.scroll.refresh();
     },
-
+     
     backTopClick(position) {
       //监听返回图标是否显示
       // console.log(position)

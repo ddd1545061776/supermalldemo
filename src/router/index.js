@@ -9,6 +9,7 @@ Vue.use(Router)
 
 const router= new Router({
   mode:"history",//可以去掉url上面的#
+  // base:'/ddd/', 
   routes: [
     {
       path: '',
@@ -31,7 +32,7 @@ const router= new Router({
       component:Profile
     },
     {
-      path:"/detail/:id",
+      path:"/detail/:iid",
       component:Detail
     },
   ]
